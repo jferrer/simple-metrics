@@ -1,0 +1,6 @@
+[submodule "components/api"]
+	path = components/api
+	url = https://github.com/jferrer/simple-metrics-api.git
+[submodule "components/app"]
+	path = components/app
+	url = https://github.com/jferrer/simple-metrics-app.git
