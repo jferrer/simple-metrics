@@ -40,16 +40,17 @@ Enter the project:
 cd simple-metrics
 ```
 
+Run to configure:
+
+```
+docker-compose run api bin/setup
+docker-compose run app yarn
+```
+
 Run to download dependencies, build the images & start Docker environment:
 
 ```
 docker-compose up -d
-```
-
-Run to setup API database: migrations, seed...
-
-```
-docker-compose exec api bin/setup
 ```
 
 Run tests for API:
